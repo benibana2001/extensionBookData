@@ -1,0 +1,27 @@
+{
+  "name": "extensionbookdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ts-node src/main.ts",
+    "build": "npx esbuild src/main.ts --bundle --format=esm --outdir=scripts"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "18.16.0"
+  },
+  "dependencies": {
+    "benibana_bookdata": "^0.1.2",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "esbuild": "^0.17.19",
+    "typescript": "^5.0.4"
+  },
+  "type": "module"
+}
